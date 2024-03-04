@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 200px;
+    background-color: darkgray;
+}
+.header ul{
+    display: flex; 
+    gap: 8px;  
+}
+.body-one {
+    display: flex;
+    padding: 0px 200px;
+    justify-content: center;
+    background-color: bisque;
+}
+.body-one .text{
+    width: 400px;
+}
+.body-two{
+    text-align: center;
+    background-color: white;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.body-three{
+    
+    padding: 50px 250px;
+    background-color: gray;
+}
+.signature {
+    text-align: end;
+}
+.body-four {
+    margin: 50px 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.footer {
+    background-color: darkgray;
+    text-align: center;
+    
+    padding: 20px 0;
+}
