@@ -28,6 +28,8 @@ body {
 }
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    
 }
 .body-one {
     display: flex;
@@ -45,6 +47,10 @@ a {
     display: flex;
     justify-content: center;
     gap: 8px;
+}
+img{
+    height: 100px;
+    width: 100px;
 }
 .body-three{
     
