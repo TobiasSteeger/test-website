@@ -7,24 +7,39 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 200px;
-    background-color: darkgray;
+    color: #F9FaF8;
+}
+
+.body-one h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+.body-one p{
+    color: #F9FaF8;
+    font-size: 18px;
 }
 .header ul{
     display: flex; 
     gap: 8px;  
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
 .body-one {
     display: flex;
     padding: 0px 200px;
     justify-content: center;
-    background-color: bisque;
+   
 }
 .body-one .text{
     
 }
 .body-two{
     text-align: center;
-    background-color: white;
 }
 .cards {
     display: flex;
@@ -34,22 +49,25 @@ body {
 .body-three{
     
     padding: 50px 250px;
-    background-color: gray;
+    background-color: #E5E7EB;
 }
 .signature {
     text-align: end;
 }
 .body-four {
     margin: 50px 200px;
-    background-color: blue;
+    background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
 }
 .footer {
-    background-color: darkgray;
+   
     text-align: center;
     
     padding: 20px 0;
+}
+.header, .footer, .body-one{
+    background-color: #1F2937;
 }
