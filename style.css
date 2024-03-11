@@ -60,3 +60,36 @@
     --fs-900: 3rem;
 
   }
+
+  body{
+    background-color: var(--clr-neutral-400);
+  }
+
+  .header{
+    background-color: var(--clr-primary-400);
+    display: grid;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+    }
+
+
+  @media (min-width: 500px) {
+  .header{
+    background-color: var(--clr-primary-400);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+    }
+  }
+  .list ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 0.5rem;
+    justify-content: center;
+  }
