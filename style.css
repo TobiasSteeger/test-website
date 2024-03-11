@@ -44,3 +44,19 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  :root {
+    --clr-primary-400: #3882F6;
+
+    --clr-neutral-100: #F9FAF8;
+    --clr-neutral-400: #E5E7EB;
+    --clr-neutral-900: #1F2937;
+    
+    --fw-regular: 500;
+    --fw-bold: 800;
+
+    --fs-500: 1.125rem;
+    --fs-700: 2.25rem;
+    --fs-900: 3rem;
+
+  }
