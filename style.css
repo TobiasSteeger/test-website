@@ -9,6 +9,7 @@
   */
   * {
     margin: 0;
+    padding: 0;
   }
   /*
     Typographic tweaks!
@@ -18,6 +19,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
   }
   /*
     5. Improve media defaults
@@ -47,25 +49,111 @@
 
   :root {
     --clr-primary-400: #3882F6;
+    --clr-primary-700: #1F2937;
 
     --clr-neutral-100: #F9FAF8;
     --clr-neutral-400: #E5E7EB;
-    --clr-neutral-900: #1F2937;
     
+    
+    --ff-primary: sans-serif, serif;
+
     --fw-regular: 500;
     --fw-bold: 800;
 
-    --fs-500: 1.125rem;
+    --fs-400: 1.125rem;
     --fs-700: 2.25rem;
     --fs-900: 3rem;
 
   }
 
   body{
-    background-color: var(--clr-neutral-400);
+      font-family: var(--ff-primary);
+      font-size: var(--fs-400);
+      font-weight: var(--fw-regular);
+      color: var(--clr-primary-700);
+      
+      
+      
   }
 
-  .header{
+  .header, .body-one, footer {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-700) ;
+  }
+
+  .header, .body-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 20%;
+  }
+
+  .header ul {
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+  }
+
+.body-two {
+  text-align: center;
+}
+
+
+
+  .illustration-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0 20%;
+  }
+  
+  .illustration img {
+    border-radius: 0.5rem;
+    border: 1px solid var(--clr-primary-400)
+  }
+
+.body-three {
+  background-color: var(--clr-neutral-400);
+  padding: 0 20%;
+}
+
+.quote {
+  padding: 3rem;
+}
+
+.author {
+  font-weight: var(--fw-bold);
+  text-align: end;
+}
+
+.body-four {
+  padding: 3rem 25%;
+}
+
+.body-four__content {
+  display: flex;
+  background-color: var(--clr-primary-400);
+  border-radius: .5rem;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  color: var(--clr-neutral-100);
+}
+ .button {
+  background-color: var(--clr-primary-400);
+  border: 1px solid var(--clr-neutral-100);
+  border-radius: .5rem;
+  width: 6rem;
+  color: var(--clr-neutral-100);
+ }
+
+ footer {
+  text-align: center;
+ }
+
+  /*.header{
     background-color: var(--clr-primary-400);
     display: grid;
     place-content: center;
