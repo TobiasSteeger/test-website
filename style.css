@@ -87,6 +87,10 @@
     gap: 1rem;
     padding: 0 20%;
   }
+  .body-one {
+    padding: 2rem 20%;
+    align-items: center;
+  }
 
   .header ul {
     display: flex;
